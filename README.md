@@ -1,40 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MERN E-COMMERCE SERVER
+
+Hello👋! My name is **Shankar Kumar Nanda**. I have created this **Full Stack E-commerce Website** to provide users with a seamless online shopping experience. From browsing products to making purchases, we have packed in features to make your journey seamless.
+
+
+# Features
+
+-   **User Management**: Effortlessly manage user accounts, authentication, and data.
+
+-   **Product Management**: Easily add, edit, and remove products with intuitive tools.
+    
+-   **Order Management**: Organize products efficiently with flexible category tools.
+    
+-   **Analytics and Reporting**: Gain insights into sales trends, inventory, and customer behavior.
+    
+-   **Customisation and Configuration**: Tailor settings for shipping, taxes, discounts, and more.
+
+- **Security and Permissions**: Ensure data integrity with robust security and permission controls.
+    
+-   **Responsive Design**: Enjoy a consistent experience on various devices.
+
+# Technologies I Used
+
+-   **Frontend**: React.Js, Next.Js, Tailwind CSS.
+-   **Backend**: Node.Js, Express.Js, Mongoose.
+-   **Database**: MongoDB, Cloudinary.
+-   **Authentication**: OAuth 2.0 (Google Auth), NextAuth.
+
+## Dependencies
+
+- @auth/mongodb-adapter
+- axios
+- cloudinary
+- cordova-plugin-file
+- mongodb
+- mongoose
+- multiparty
+- next
+- next-auth
+- react
+- react-dom
+- react-hot-toast
+- react-sortable
+- react-sortablejs
+- react-spinners
+
+## Dev Dependencies
+- autoprefixer
+- eslint
+- eslint-config-next
+- postcss
+- tailwindcss
 
 ## Getting Started
 
-First, run the development server:
+ To run the development server, use the following commands: 
+ `` `bash 
+ npm run dev 
+ or 
+ yarn dev 
+ or 
+ pnpm dev
+ 
+Open [http://localhost:3000](http://localhost:3000/) with your browser to see the result.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
